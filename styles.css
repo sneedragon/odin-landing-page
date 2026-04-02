@@ -3,4 +3,29 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+header,
+.herosection,
+footer {
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infosection,
+.quotesection {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+button,
+.callsection {
+    background-color: #3882F6;
 }
