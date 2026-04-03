@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #E5E7EB;
+    margin: 0;
 }
 
 header,
