@@ -41,7 +41,7 @@ main > * {
 .herosection {
     display: flex;
     justify-content: center;
-    padding: 64px;
+    padding: 96px 192px;
     align-items: center;
     gap: 48px;
 } 
