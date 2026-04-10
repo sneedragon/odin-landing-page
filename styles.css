@@ -18,8 +18,8 @@ footer {
 
 header {
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
+    padding: 16px 128px;
 }
 
 .logo {
@@ -41,7 +41,7 @@ main > * {
 .herosection {
     display: flex;
     justify-content: center;
-    padding: 96px 192px;
+    padding: 96px 128px;
     align-items: center;
     gap: 48px;
 } 
