@@ -75,6 +75,26 @@ h1 {
     font-size: 36px;
 }
 
+.quotesection {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 128px 256px;
+}
+
+.quotetext {
+    font-style: italic;
+    font-weight: 300px;
+    color:#1F2937;
+}
+
+.quotation {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 30px;
+}
+
 button,
 .callsection {
     background-color: #3882F6;
