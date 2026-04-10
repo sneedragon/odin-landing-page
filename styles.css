@@ -73,10 +73,38 @@ h1 {
 }
 
 .infosection {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
 h2 {
     font-size: 36px;
+}
+
+.infoitem {
+    display: flex;
+    flex-direction: column;
+    width: 128px;
+    margin: auto 32px;
+    text-align: center;
+}
+
+.infosquare {
+    width: 128px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.infosquare img {
+    width: 128px;
+    height: 128px;
 }
 
 .quotesection {
