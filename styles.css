@@ -53,9 +53,7 @@ main {
     align-items: flex-start;
 }
 
-.subtext {
-    margin-bottom: 16px;
-}
+
 
 h1 {
     font-size: 48px;
@@ -69,9 +67,15 @@ h1 {
 }
 
 
-.infosection,
-.quotesection {
+.infosection {
     color: #1F2937;
+    font-size: 36px;
+}
+
+.infosection {
+
+}
+h2 {
     font-size: 36px;
 }
 
@@ -81,12 +85,13 @@ h1 {
     background-color: #E5E7EB;
     justify-content: center;
     padding: 128px 256px;
+    color: #1F2937;
 }
 
 .quotetext {
+    font-size: 36px;
     font-style: italic;
     font-weight: 300px;
-    color:#1F2937;
 }
 
 .quotation {
@@ -153,4 +158,9 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 32px;
+}
+
+.subtext {
+    margin-bottom: 16px;
+    font-size: 16px;
 }
